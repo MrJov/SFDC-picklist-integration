@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>GVS_CalloutMock</members>
+        <members>GVS_MetadataUtils</members>
+        <members>GVS_SettingsTriggerHandler</members>
+        <members>GVS_SettingsTriggerHandlerTest</members>
+        <members>GVS_SyncFirstStepPicklistValue</members>
+        <members>GVS_SyncFirstStepPicklistValueTest</members>
+        <members>GVS_SyncFourthStepDependencies</members>
+        <members>GVS_SyncFourthStepDependenciesTest</members>
+        <members>GVS_SyncSchedulable</members>
+        <members>GVS_SyncSchedulableTest</members>
+        <members>GVS_SyncSecondStepEnableRT</members>
+        <members>GVS_SyncSecondStepEnableRTTest</members>
+        <members>GVS_SyncThirdStepTranslations</members>
+        <members>GVS_SyncThirdStepTranslationsTest</members>
+        <members>GVS_Utils</members>
+        <members>GVS_UtilsTest</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>GVS_Settings</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>GVS_IntegrationAppLogo</members>
+        <name>ContentAsset</name>
+    </types>
+    <types>
+        <members>GVS_Integration</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>DesktopOnly</members>
+        <name>CustomNotificationType</name>
+    </types>
+    <types>
+        <members>GVS_Picklist__c</members>
+        <members>GVS_DeployError__c</members>
+        <members>GVS_EnableRecordType__c</members>
+        <members>GVS_Settings__c</members>
+        <members>GVS_PicklistValue__c</members>
+        <members>GVS_PicklistValueDependency__c</members>
+        <members>GVS_PicklistValueTranslation__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>GVS_Picklist__c</members>
+        <members>GVS_DeployError__c</members>
+        <members>GVS_EnableRecordType__c</members>
+        <members>GVS_Settings__c</members>
+        <members>GVS_PicklistValue__c</members>
+        <members>GVS_PicklistValueDependency__c</members>
+        <members>GVS_PicklistValueTranslation__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>GVS_EmailTemplates</members>
+        <members>GVS_EmailTemplates/GVS_DeployErrorNotification</members>
+        <name>EmailTemplate</name>
+    </types>
+    <types>
+        <members>GVS_PicklistRecordPage</members>
+        <members>GVS_DeployErrorRecordPage</members>
+        <members>GVS_EnableRecordTypeRecordPage</members>
+        <members>GVS_SettingsRecordPage</members>
+        <members>GVS_PicklistValueRecordPage</members>
+        <members>GVS_PicklistValueDependencyRecordPage</members>
+        <members>GVS_PicklistValueTranslationRecordPage</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>GVS_DeployError</members>
+        <members>GVS_Settings</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>GVS_Picklist__c-GVS - Picklist Layout</members>
+        <members>GVS_DeployError__c-GVS - Deploy Error Layout</members>
+        <members>GVS_EnableRecordType__c-GVS - Enable RecordType Layout</members>
+        <members>GVS_Settings__c-GVS - Settings Layout</members>
+        <members>GVS_PicklistValue__c-GVS - Picklist Value Layout</members>
+        <members>GVS_PicklistValueDependency__c-GVS - Picklist Value Dependency Layout</members>
+        <members>GVS_PicklistValueTranslation__c-GVS - Picklist Value Translation Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Admin</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>GVS_DeployError__c</members>
+        <name>Workflow</name>
+    </types>
+    <types>
+        <members>GVS_DeployError__c.GVS_DeployErrorNotification</members>
+        <name>WorkflowAlert</name>
+    </types>
+    <version>51.0</version>
+</Package>

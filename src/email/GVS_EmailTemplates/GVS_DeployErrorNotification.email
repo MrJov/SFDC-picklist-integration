@@ -1,0 +1,4 @@
+There has been an error while deploying the global value sets metadata.
+Error Type: {!GVS_DeployError__c.ErrorType__c}
+Error Line: {!GVS_DeployError__c.ErrorLine__c}
+Error: {!GVS_DeployError__c.Errors__c}
